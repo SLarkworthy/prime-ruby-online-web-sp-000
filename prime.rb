@@ -1,11 +1,12 @@
 #let's try an innficient but intuitive way first
 def prime?(n)
+  remainders = []
   if n <= 1
    false
   elsif n > 1
     (2..n).each do |num|
-      (n % num == 0).none?(0)
+      remainders << n % num
     end
-    true
+    
   end
 end
