@@ -4,6 +4,6 @@ def prime?(n)
    false
   elsif n > 1
     (2..n).each do |num|
-      n %
+      n % num
   end
 end
