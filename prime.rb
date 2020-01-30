@@ -1,4 +1,5 @@
 #let's try an inefficient but intuitive way first
+#this does n-2 iterations
 
 # def prime?(n)
 #   remainders = []
