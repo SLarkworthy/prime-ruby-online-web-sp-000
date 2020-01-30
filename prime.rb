@@ -7,6 +7,6 @@ def prime?(n)
     (2..n).each do |num|
       remainders << n % num
     end
-    
+    remainders.all? {|r| r == 0}
   end
 end
