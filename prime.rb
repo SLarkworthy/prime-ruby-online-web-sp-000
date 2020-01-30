@@ -11,3 +11,4 @@
 #     remainders.none? {|r| r == 0}
 #   end
 # end
+
