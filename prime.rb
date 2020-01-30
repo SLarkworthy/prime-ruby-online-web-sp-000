@@ -5,9 +5,9 @@ def prime?(n)
   if n <= 1
    false
   elsif n > 1
-    (2..n).each do |num|
+    (2..n-1).each do |num|
       remainders << n % num
     end
-    remainders.all? {|r| r == 0}
+    remainders.none? {|r| r == 0}
   end
 end
