@@ -1,4 +1,4 @@
-#let's try an inneficient but intuitive way first
+#let's try an inefficient but intuitive way first
 
 def prime?(n)
   remainders = []
